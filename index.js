@@ -11,7 +11,7 @@ function getLanguages(books) {
   console.log(uniqueLanguages.join(' - ') + '\n');
 }
 
-// 2. Фильтрация книг по веку
+// II. Фильтрация книг по веку
 function filterByCentury(books, century) {
   const startYear = (century - 1) * 100 + 1;
   const endYear = century * 100;
